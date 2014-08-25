@@ -1,22 +1,2 @@
-
-/**
- * Inspectlet
- */
-
-.logo[data-logo="Inspectlet"] {
-  width: 4.152975434em;
-  /* (461.42/94.44) * (1-.05-.1) - 0 */
-}
-
-.logo[data-logo="Inspectlet"] > * {
-  background-image: url(images/logo.svg);
-  margin: .1em 0 .05em 0;
-}
-
-.logo[data-logo="Inspectlet"][data-color="black"] > * {
-  background-image: url(images/logo-black.svg);
-}
-
-.logo[data-logo="Inspectlet"][data-color="white"] > * {
-  background-image: url(images/logo-white.svg);
-}
+@import 'logo/logo';
+@import './style';
